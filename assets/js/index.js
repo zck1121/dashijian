@@ -47,7 +47,7 @@ function renderAvatar(user) {
   //渲染用户的头像
   if (user.user_pic !== null) {
     $(".layui-nav-img")
-      .atter("src", user.user_pic)
+      .attr("src", user.user_pic)
       .show();
     $(".test-avater").hide();
   } else {
